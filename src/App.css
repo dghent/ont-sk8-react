@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.header {
+  padding: 64px 8px 64px 8px;
+}
+
+.container {
+ margin: 0 32px 0 32px;
+}
