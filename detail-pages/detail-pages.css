@@ -13,6 +13,11 @@ body {
   font-size: 100%;
 }
 
+img {
+  width: 100%;
+  padding-top: 32px;
+}
+
 /* ROOT FONT STYLES */
 
 * {
@@ -24,12 +29,14 @@ body {
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 32px;
+  font-size: 48px;
+  margin-bottom: 16px;
 }
 
 p {
   font-size: 18px;
   font-weight: 200;
+  line-height: 2;
 }
 
 .header {
@@ -40,6 +47,10 @@ p {
  margin: 0 32px 0 32px;
 }
 
+.footer-link a {
+  margin: 32px 0 32px 0;
+}
+
 /* LINKS */
 
 a {
@@ -47,6 +58,10 @@ a {
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   text-decoration: none;
-  color: #41B89D;
+  color: #6CD9AA;
   text-decoration-style: solid;
+}
+
+.back-link {
+  margin-top: 32px;
 }
