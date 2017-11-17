@@ -47,8 +47,8 @@ p {
  margin: 0 32px 0 32px;
 }
 
-.footer-link a {
-  margin: 32px 0 32px 0;
+.footer-link {
+  margin: 64px 0 64px 0;
 }
 
 /* LINKS */
@@ -60,6 +60,10 @@ a {
   text-decoration: none;
   color: #6CD9AA;
   text-decoration-style: solid;
+}
+
+a:hover {
+  color: #1d6a49;
 }
 
 .back-link {

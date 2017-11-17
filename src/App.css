@@ -16,7 +16,7 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Yanone', Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
 }
@@ -28,8 +28,17 @@ h1 {
 }
 
 p {
+  max-width: 464px;
   font-size: 18px;
   font-weight: 200;
+}
+
+.desc {
+  margin: 0 0 8px 0;
+}
+
+.byline {
+  font-size: 12px;
 }
 
 .header {
@@ -47,6 +56,10 @@ a {
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   text-decoration: none;
-  color: #41B89D;
+  color: #6CD9AA;
   text-decoration-style: solid;
+}
+
+a:hover {
+  color: #1d6a49;
 }
