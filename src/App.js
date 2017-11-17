@@ -96,16 +96,19 @@ class App extends Component {
 
         <div className="header row">
             <h2>ONTARIO SKATEPARKS</h2>
-            <p className="desc">
-            A free skatepark directory for Ontario, Canada. <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="#">donate</a> if you dig it.
+            <p>
+            A free skatepark directory for Ontario, Canada.
             </p>
             <span className="byline">Created by <a href="http://ghent.design">David Ghent</a>.</span>
         </div>
 
-        <div className="grid">
+        <div className="grid grid-center">
           {cardComponents}
         </div>
 
+        <div className="footer">
+          <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="#">donate</a> if you dig it.
+        </div>
     </div>
 
     );

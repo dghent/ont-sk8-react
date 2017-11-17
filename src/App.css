@@ -27,26 +27,27 @@ h1 {
   font-size: 32px;
 }
 
-p {
-  max-width: 464px;
-  font-size: 18px;
-  font-weight: 200;
-}
-
-.desc {
-  margin: 0 0 8px 0;
-}
-
 .byline {
   font-size: 12px;
 }
 
 .header {
   padding: 64px 8px 64px 8px;
+  text-align: center;
 }
 
 .container {
  margin: 0 32px 0 32px;
+}
+
+.card {
+  font-size: 18px;
+  font-weight: 200;
+
+}
+
+.footer {
+  text-align: center;
 }
 
 /* LINKS */
