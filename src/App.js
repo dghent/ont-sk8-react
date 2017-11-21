@@ -79,9 +79,9 @@ function Card(props) {
   const img = require(props.img)
   const {title} = props
   return (
-    <div className="card col col-fixed" key={title}>
+    <div className="col col-fixed" key={title}>
       <a href={`/${title}-skatepark`}><img src={img} alt={title} /></a>
-      <p>{title}</p>
+      <span className="cardTitle">{title}</span>
     </div>
   );
 }
@@ -97,9 +97,9 @@ class App extends Component {
         <div className="header row">
             <h2>ONTARIO SKATEPARKS</h2>
             <p>
-            A free skatepark directory for Ontario, Canada.
-            </p>
+            A free skatepark directory for Ontario, Canada.<br/>
             <span className="byline">Created by <a href="http://ghent.design">David Ghent</a>.</span>
+            </p>
         </div>
 
         <div className="grid grid-center">
@@ -107,9 +107,13 @@ class App extends Component {
         </div>
 
         <div className="footer">
-          <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="#">donate</a> if you dig it.
+          <h2>Help me make Ontario Skateparks better.</h2>
+          <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="#">donate</a> if you want to help keep the lights on.
         </div>
+
     </div>
+
+
 
     );
   }

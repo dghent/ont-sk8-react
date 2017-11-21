@@ -40,14 +40,16 @@ h1 {
  margin: 0 32px 0 32px;
 }
 
-.card {
-  font-size: 18px;
+.cardTitle {
+  display: block;
+  font-size: 16px;
   font-weight: 200;
-
+  padding: 4px 0 16px 0;
 }
 
 .footer {
   text-align: center;
+  margin: 188px 0 188px 0;
 }
 
 /* LINKS */
