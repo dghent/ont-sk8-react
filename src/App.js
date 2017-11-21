@@ -46,7 +46,7 @@ const cards = [
   {img: './img/paris-skatepark-th.jpg', title: 'Paris'},
   {img: './img/pembroke-skatepark-th.jpg', title: 'Pembroke'},
   {img: './img/peterborough-skatepark-th.jpg', title: 'Peterborough'},
-  {img: './img/picton-skatepark-th.jpg', title: 'Picotn'},
+  {img: './img/picton-skatepark-th.jpg', title: 'Picton'},
   {img: './img/port-credit-skatepark-th.jpg', title: 'Port Credit'},
   {img: './img/port-dover-skatepark-th.jpg', title: 'Port Dover'},
   {img: './img/saugeen-shores-skatepark-th.jpg', title: 'Saugeen Shores'},

@@ -66,3 +66,13 @@ a {
 a:hover {
   color: #1d6a49;
 }
+
+img {
+  -webkit-transition: opacity 0.1s linear;
+  -moz-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+img:hover {
+  opacity: 0.5;
+}
