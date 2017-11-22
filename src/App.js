@@ -80,7 +80,7 @@ function Card(props) {
   const img = require(props.img)
   const {title} = props
   return (
-    <div className="col col-fixed" key={title}>
+    <div className="col col-lg col-fixed" key={title}>
       <a href={`/${title}-skatepark`}><img src={img} alt={title} /></a>
       <span className="cardTitle">{title}</span>
     </div>

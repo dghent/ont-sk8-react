@@ -71,6 +71,7 @@ img {
   -webkit-transition: opacity 0.1s linear;
   -moz-transition: opacity 0.1s linear;
   transition: opacity 0.1s linear;
+  width: 100%;
 }
 
 img:hover {
