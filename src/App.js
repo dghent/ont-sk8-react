@@ -38,7 +38,6 @@ const cards = [
   {img: './img/milton-sportscentre-skatepark-th.jpg', title: 'Milton Sportscentre'},
   {img: './img/minnow-lake-skatepark-th.jpg', title: 'Minnow Lake'},
   {img: './img/mississauga-skatepark-th.jpg', title: 'Mississauga'},
-  {img: './img/mount-forest-skatepark-th.jpg', title: 'Mount Forest'},
   {img: './img/northbrook-skatepark-th.jpg', title: 'Northbrook'},
   {img: './img/orangeville-skatepark-th.jpg', title: 'Orangeville'},
   {img: './img/orillia-skatepark-th.jpg', title: 'Orillia'},
