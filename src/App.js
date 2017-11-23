@@ -32,7 +32,6 @@ const cards = [
   {img: './img/kitchener-skatepark-th.jpg', title: 'Kitchener'},
   {img: './img/london-kiwanis-skatepark-th.jpg', title: 'London Kiwanis'},
   {img: './img/london-medway-skatepark-th.jpg', title: 'London Medway'},
-  {img: './img/london-stronach-skatepark-th.jpg', title: 'London Stronach'},
   {img: './img/london-woolsley-barracks-skatepark-th.jpg', title: 'London Woolsley Barracks'},
   {img: './img/madoc-skatepark-th.jpg', title: 'Madoc'},
   {img: './img/milton-skatepark-th.jpg', title: 'Milton'},
