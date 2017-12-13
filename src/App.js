@@ -107,7 +107,7 @@ class App extends Component {
 
         <div className="footer">
           <h2>Help me make Ontario Skateparks better.</h2>
-          <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="https://paypal.me/pools/c/804RqSNJUN">donate</a> if you want to help keep the lights on.
+          <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="https://paypal.me/pools/c/804RqSNJUN" target="_blank">donate</a> if you want to help keep the lights on.
         </div>
 
     </div>
