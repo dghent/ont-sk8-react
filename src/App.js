@@ -97,7 +97,6 @@ class App extends Component {
             <h2>ONTARIO SKATEPARKS</h2>
             <p>
             A free skatepark directory for Ontario, Canada.<br/>
-            <span className="byline">Created by <a href="http://ghent.design">David Ghent</a>.</span>
             </p>
         </div>
 
@@ -107,7 +106,8 @@ class App extends Component {
 
         <div className="footer">
           <h2>Help me make Ontario Skateparks better.</h2>
-          <a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="https://paypal.me/pools/c/804RqSNJUN" target="_blank">donate</a> if you want to help keep the lights on.
+          <p><a href="mailto:ontarioskateparks@gmail.com">Contribute</a> photos or new parks or <a href="https://paypal.me/pools/c/804RqSNJUN" target="_blank">donate</a> if you want to help keep the lights on.</p>
+          <span className="byline">Created by <a href="http://ghent.design">David Ghent</a>.</span>
         </div>
 
     </div>
