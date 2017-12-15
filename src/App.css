@@ -13,6 +13,11 @@ body {
   font-size: 100%;
 }
 
+.search-field {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
 /* ROOT FONT STYLES */
 
 * {

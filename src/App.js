@@ -86,8 +86,25 @@ function Card(props) {
 }
 
 class App extends Component {
+  state = {
+    searchQuery: ''
+  }
+
+  storeSearchQuery = event => {
+    this.setState({
+      searchQuery: event.currentTarget.value
+    })
+  }
+
   render() {
-    const cardComponents = cards.map(Card);
+    const { searchQuery } = this.state
+
+    let filteredCards = []
+    if (searchQuery.length === 0) {
+      filteredCards = cards
+    } else {
+      filteredCards = cards.filter(cardData => cardData.title.toLowerCase().indexOf(searchQuery.toLowerCase()) > -1)
+    }
 
     return (
 
@@ -100,8 +117,14 @@ class App extends Component {
             </p>
         </div>
 
+        <div className="search-field">
+          <input placeholder="search" onChange={this.storeSearchQuery}></input>
+        </div>
+
         <div className="grid grid-center">
-          {cardComponents}
+          {filteredCards.map(cardData =>
+            <Card key={cardData.title} img={cardData.img} title={cardData.title} />
+          )}
         </div>
 
         <div className="footer">
