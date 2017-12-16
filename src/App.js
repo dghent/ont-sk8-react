@@ -115,10 +115,9 @@ class App extends Component {
             <p>
             A free skatepark directory for Ontario, Canada.<br/>
             </p>
-        </div>
-
-        <div className="search-field">
-          <input placeholder="search" onChange={this.storeSearchQuery}></input>
+            <div className="search-field">
+              <input placeholder="Search by city" onChange={this.storeSearchQuery}></input>
+            </div>
         </div>
 
         <div className="grid grid-center">
